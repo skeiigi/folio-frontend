@@ -120,7 +120,7 @@ p {
   color: var(--muted);
 }
 .small {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
 }
 .lead {
@@ -128,7 +128,7 @@ p {
   color: #6b766e;
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 1.7px;
   font-weight: 750;
   line-height: 1.5;
@@ -155,7 +155,7 @@ p {
   flex-wrap: wrap;
 }
 .tag {
-  font-size: 11px;
+  font-size: 14px;
   padding: 6px 10px;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -166,7 +166,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--green);
   cursor: pointer;
@@ -179,7 +179,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 15px;
   color: #7c867e;
   margin-bottom: 30px;
 }
@@ -190,7 +190,7 @@ p {
   width: 100%;
 }
 .count {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--muted);
   margin-left: 8px;
 }
@@ -211,7 +211,7 @@ p {
   padding: 13px 19px;
   min-height: 46px;
   border-radius: 7px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1.5;
   transition:
@@ -255,7 +255,7 @@ p {
 .btn-small {
   padding: 8px 12px;
   min-height: 35px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .icon-button {
   width: 35px;
@@ -330,7 +330,7 @@ p {
   display: flex;
   align-items: center;
   gap: 28px;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 650;
   height: 100%;
 }
@@ -360,19 +360,19 @@ p {
   margin-left: auto;
 }
 .login-link {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 650;
 }
 .header-account {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .header-publish {
   padding: 11px 15px;
   min-height: 41px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .mobile-menu {
   display: none;
@@ -403,7 +403,7 @@ p {
 .avatar-small {
   width: 23px;
   height: 23px;
-  font-size: 8px;
+  font-size: 12px;
 }
 .avatar-large {
   width: 84px;
@@ -435,7 +435,7 @@ p {
   color: #5d7650;
 }
 .hero-description {
-  font-size: 13px;
+  font-size: 16px;
   color: #7f877f;
   line-height: 1.85;
   margin-bottom: 23px;
@@ -461,7 +461,7 @@ p {
   justify-content: space-between;
 }
 .hero-note-bottom span {
-  font-size: 7px;
+  font-size: 12px;
   letter-spacing: 1.1px;
   color: #7b896e;
 }
@@ -511,7 +511,7 @@ p {
   font-size: 23px;
 }
 .section-heading h2 > span {
-  font-size: 12px;
+  font-size: 15px;
   vertical-align: super;
   letter-spacing: 0;
   color: #8c9588;
@@ -520,7 +520,7 @@ p {
 }
 .section-heading > p {
   color: #959c91;
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
 }
 .discovery-toolbar,
@@ -540,7 +540,7 @@ p {
 }
 .filter-tabs button {
   padding: 9px 13px;
-  font-size: 11px;
+  font-size: 14px;
   white-space: nowrap;
   border-radius: 6px;
   color: #8a9387;
@@ -573,7 +573,7 @@ p {
   background: none;
   border: 0;
   outline: none;
-  font-size: 10px;
+  font-size: 13px;
   width: 167px;
   height: 100%;
   color: #384d3b;
@@ -586,7 +586,7 @@ p {
   display: flex;
 }
 .search-submit {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 650;
   color: #365a3a;
 }
@@ -605,13 +605,13 @@ p {
   align-items: center;
 }
 .filter-panel label {
-  font-size: 11px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 .filter-panel select {
-  font-size: 11px;
+  font-size: 14px;
   padding: 6px 25px 6px 9px;
   min-height: 32px;
 }
@@ -652,7 +652,7 @@ p {
   padding: 5px 8px;
   border: 1px solid #ffffff55;
   border-radius: 4px;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 650;
   backdrop-filter: blur(5px);
 }
@@ -685,7 +685,7 @@ p {
 }
 .art-title {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 750;
   letter-spacing: -0.15px;
   margin-bottom: 7px;
@@ -699,11 +699,11 @@ p {
   align-items: center;
   gap: 6px;
   color: #8b9587;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 500;
 }
 .art-style {
-  font-size: 8px;
+  font-size: 12px;
   color: #a1aa98;
   margin-top: 4px;
   white-space: nowrap;
@@ -728,7 +728,7 @@ p {
   margin-bottom: 0;
 }
 .join-strip .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #9fb98c;
   margin-bottom: 12px;
 }
@@ -740,7 +740,7 @@ p {
   margin-top: 35px;
 }
 .pagination span {
-  font-size: 12px;
+  font-size: 15px;
   color: var(--muted);
 }
 .site-footer {
@@ -761,7 +761,7 @@ p {
   margin-right: 4px;
 }
 .site-footer p {
-  font-size: 10px;
+  font-size: 13px;
   color: #96a08e;
   line-height: 1.8;
   margin: 15px 0 0;
@@ -773,7 +773,7 @@ p {
   padding-top: 8px;
 }
 .footer-links a {
-  font-size: 10px;
+  font-size: 13px;
   color: #7c8d74;
   display: flex;
   align-items: center;
@@ -782,7 +782,7 @@ p {
 .footer-note {
   margin-left: auto;
   padding-top: 8px;
-  font-size: 9px;
+  font-size: 12px;
   color: #a6ae9e;
   line-height: 1.8;
   text-align: right;
@@ -801,7 +801,7 @@ p {
   margin-bottom: 15px;
 }
 .page-title .muted {
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 0;
   max-width: 640px;
 }
@@ -819,7 +819,7 @@ p {
   gap: 12px;
   min-height: 260px;
   color: #819176;
-  font-size: 13px;
+  font-size: 16px;
 }
 .state-box p {
   margin: 0;
@@ -844,7 +844,7 @@ p {
   margin-bottom: 8px;
 }
 .empty-state p {
-  font-size: 12px;
+  font-size: 15px;
   color: #839077;
   max-width: 460px;
   margin: 0 auto 23px;
@@ -866,7 +866,7 @@ p {
   gap: 10px;
   padding: 15px 17px;
   border-radius: 7px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.7;
   margin-bottom: 20px;
   overflow-wrap: anywhere;
@@ -923,7 +923,7 @@ p {
 }
 .search-wide input {
   width: 100%;
-  font-size: 12px;
+  font-size: 15px;
 }
 .creator-grid {
   display: grid;
@@ -985,18 +985,18 @@ p {
   margin: 13px 0;
 }
 .creator-card .tag {
-  font-size: 9px;
+  font-size: 12px;
   padding: 5px 7px;
   background: #f6f7f1;
 }
 .creator-card p {
-  font-size: 11px;
+  font-size: 14px;
   color: #91998a;
   margin: 17px 0 22px;
   min-height: 58px;
 }
 .creator-card-foot {
-  font-size: 10px;
+  font-size: 13px;
   color: #7e9071;
   border-top: 1px solid #e9ede2;
   padding-top: 16px;
@@ -1081,7 +1081,7 @@ p {
   color: var(--profile-muted);
 }
 .profile-hero .tag {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--profile-muted);
 }
 .profile-hero-action {
@@ -1096,7 +1096,7 @@ p {
   margin-bottom: 40px;
 }
 .profile-section-nav a {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 650;
   color: var(--profile-muted);
 }
@@ -1141,7 +1141,7 @@ p {
   font-size: 17px;
 }
 .service-card > p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   color: #8c9682;
   margin-bottom: 24px;
@@ -1150,7 +1150,7 @@ p {
   display: flex;
   gap: 19px;
   color: #8b987c;
-  font-size: 10px;
+  font-size: 13px;
   margin-top: auto;
   margin-bottom: 19px;
 }
@@ -1191,7 +1191,7 @@ p {
   line-height: 1.4;
 }
 .profile-about > p:last-child {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--profile-muted);
   line-height: 1.9;
 }
@@ -1250,7 +1250,7 @@ p {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 8px;
+  font-size: 12px;
   color: #728166;
   pointer-events: none;
   max-width: 70%;
@@ -1277,7 +1277,7 @@ p {
   gap: 7px;
   padding: 9px 14px;
   border-radius: 6px;
-  font-size: 10px;
+  font-size: 13px;
   color: #8b9781;
 }
 .viewer-tabs button.active {
@@ -1296,7 +1296,7 @@ p {
   letter-spacing: -1.3px;
 }
 .artwork-info .tag {
-  font-size: 9px;
+  font-size: 12px;
   background: #edf1e6;
   border: 0;
 }
@@ -1307,13 +1307,13 @@ p {
   margin: 0 0 29px;
 }
 .author-line strong {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   display: block;
   margin-bottom: 4px;
 }
 .author-line div > span {
-  font-size: 10px;
+  font-size: 13px;
   color: #9aa48b;
   display: flex;
   align-items: center;
@@ -1325,7 +1325,7 @@ p {
   padding-top: 23px;
 }
 .detail-list .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 17px;
 }
 .detail-list > div {
@@ -1335,7 +1335,7 @@ p {
   gap: 20px;
   padding: 11px 0;
   border-bottom: 1px solid #e7ebdf;
-  font-size: 10px;
+  font-size: 13px;
 }
 .detail-list > div > span {
   color: #919b86;
@@ -1353,14 +1353,14 @@ p {
   padding: 35px 0 25px;
 }
 .artwork-story .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 13px;
 }
 .artwork-story h2 {
   font-size: 23px;
 }
 .artwork-story > p:last-child {
-  font-size: 13px;
+  font-size: 16px;
   color: #7b8970;
   line-height: 1.95;
 }
@@ -1382,7 +1382,7 @@ p {
   background: #f8faefd9;
   padding: 12px;
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .auth-page {
   display: grid;
@@ -1406,7 +1406,7 @@ p {
 }
 .auth-story > .eyebrow {
   color: #b6c79e;
-  font-size: 8px;
+  font-size: 12px;
 }
 .auth-story h2 {
   font-size: 37px;
@@ -1421,7 +1421,7 @@ p {
   color: #c0daa1;
 }
 .auth-story > p {
-  font-size: 11px;
+  font-size: 14px;
   color: #b7c6a8;
   position: relative;
   z-index: 1;
@@ -1432,7 +1432,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 2px;
   color: #adc49b;
 }
@@ -1477,7 +1477,7 @@ p {
   max-width: 380px;
 }
 .auth-form-panel > .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 .auth-form-panel h1 {
@@ -1485,14 +1485,14 @@ p {
   margin-bottom: 13px;
 }
 .auth-form-panel > .muted {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 27px;
 }
 .auth-form-panel form > .btn {
   margin-top: 8px;
 }
 .auth-switch {
-  font-size: 11px;
+  font-size: 14px;
   color: #919b87;
   margin: 24px 0;
 }
@@ -1526,12 +1526,12 @@ p {
 }
 .role-options strong {
   display: block;
-  font-size: 11px;
+  font-size: 14px;
   margin: 8px 0 5px;
 }
 .role-options span {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   color: #8e9c80;
 }
 .role-options svg {
@@ -1550,11 +1550,11 @@ p {
 }
 .demo-login > span {
   width: 100%;
-  font-size: 9px;
+  font-size: 12px;
   color: #98a28d;
 }
 .demo-login button {
-  font-size: 9px;
+  font-size: 12px;
   padding: 7px 9px;
   background: #eaf0e0;
   border-radius: 4px;
@@ -1569,7 +1569,7 @@ p {
   display: flex;
   gap: 12px;
   align-items: center;
-  font-size: 13px;
+  font-size: 16px;
 }
 .feature-list svg {
   color: #7b965c;
@@ -1582,12 +1582,12 @@ p {
   min-width: 0;
 }
 .field-label {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   color: #53644a;
 }
 .field small {
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.7;
   color: #9ba58d;
 }
@@ -1599,7 +1599,7 @@ select {
   color: #33472e;
   border-radius: 6px;
   padding: 12px 13px;
-  font-size: 12px;
+  font-size: 15px;
   outline: none;
   min-height: 45px;
   transition:
@@ -1610,7 +1610,7 @@ select {
 input::placeholder,
 textarea::placeholder {
   color: #a1ab95;
-  font-size: 11px;
+  font-size: 14px;
 }
 input:focus,
 textarea:focus,
@@ -1639,7 +1639,7 @@ textarea {
   margin-bottom: 25px;
 }
 .form-section > h3 {
-  font-size: 13px;
+  font-size: 16px;
   margin: 25px 0 15px;
 }
 .form-section > .section-heading h2 {
@@ -1677,7 +1677,7 @@ textarea {
 }
 .editor-aside p,
 .editor-aside li {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.9;
   color: #91a07c;
 }
@@ -1696,7 +1696,7 @@ textarea {
   color: #739253;
 }
 .editor-aside > .text-link {
-  font-size: 10px;
+  font-size: 13px;
 }
 .file-picker {
   position: relative;
@@ -1723,14 +1723,14 @@ textarea {
   outline-offset: 3px;
 }
 .file-picker strong {
-  font-size: 11px;
+  font-size: 14px;
   color: #698252;
   font-weight: 650;
   overflow-wrap: anywhere;
   max-width: 100%;
 }
 .file-picker > span {
-  font-size: 9px;
+  font-size: 12px;
   text-align: center;
 }
 .file-picker input {
@@ -1760,7 +1760,7 @@ textarea {
   align-items: center;
   gap: 7px;
   padding: 0 0 16px;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   color: #8c9b7c;
   white-space: nowrap;
@@ -1792,7 +1792,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 13px;
   color: #889c74;
   margin-bottom: 14px;
 }
@@ -1804,7 +1804,7 @@ textarea {
   align-items: baseline;
 }
 .studio-stats small {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 450;
   color: #8f9e7b;
 }
@@ -1824,18 +1824,18 @@ textarea {
   gap: 15px;
 }
 .studio-profile-strip strong {
-  font-size: 12px;
+  font-size: 15px;
 }
 .studio-profile-strip > .text-link {
   margin-left: auto;
-  font-size: 10px;
+  font-size: 13px;
 }
 .status {
   display: inline-flex;
   align-items: center;
   gap: 5px;
   white-space: nowrap;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   padding: 5px 8px;
   border-radius: 4px;
@@ -1893,7 +1893,7 @@ textarea {
   margin-bottom: 26px;
 }
 .theme-swatch {
-  font-size: 10px;
+  font-size: 13px;
   padding: 7px 7px 10px;
   border: 1px solid #e3e7d9;
   border-radius: 7px;
@@ -1935,7 +1935,7 @@ textarea {
   border-bottom: 1px solid #e6ecdd;
 }
 .section-order strong {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
 }
 .section-order > div > div {
@@ -1944,7 +1944,7 @@ textarea {
   gap: 4px;
 }
 .check-inline {
-  font-size: 9px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1959,7 +1959,7 @@ textarea {
   top: 30px;
 }
 .editor-preview > .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 .profile-mini {
@@ -1980,14 +1980,14 @@ textarea {
   margin: 17px 0 8px;
 }
 .profile-mini > p {
-  font-size: 8px;
+  font-size: 12px;
   color: var(--profile-muted);
 }
 .mini-cta {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 8px;
+  font-size: 12px;
   color: #fff;
   padding: 8px 10px;
   border-radius: 4px;
@@ -1999,10 +1999,10 @@ textarea {
   margin-top: 16px;
 }
 .profile-mini section > strong {
-  font-size: 10px;
+  font-size: 13px;
 }
 .profile-mini section > p {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--profile-muted);
   margin-top: 12px;
 }
@@ -2032,7 +2032,7 @@ textarea {
   border: 1px solid #8b9e7333;
   border-radius: 4px;
   margin-top: 12px;
-  font-size: 8px;
+  font-size: 12px;
 }
 .studio-services {
   margin-bottom: 35px;
@@ -2065,7 +2065,7 @@ textarea {
   margin-bottom: 20px;
 }
 .brief-author-card > .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 9px;
 }
 .brief-author-card h2 {
@@ -2073,7 +2073,7 @@ textarea {
   margin-bottom: 17px;
 }
 .brief-author-card .tag {
-  font-size: 8px;
+  font-size: 12px;
   background: #e8efdd;
   color: #82976b;
   border-color: #dce6d0;
@@ -2084,11 +2084,11 @@ textarea {
   margin: 24px 0;
 }
 .brief-author-card h3 {
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 13px;
 }
 .next-steps {
-  font-size: 11px;
+  font-size: 14px;
   color: #889c74;
   padding-left: 17px;
   line-height: 1.9;
@@ -2103,14 +2103,14 @@ textarea {
   border-top: 1px solid #dde5d2;
 }
 .selected-service .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 8px;
 }
 .selected-service > strong {
   font-size: 14px;
 }
 .selected-service p {
-  font-size: 10px;
+  font-size: 13px;
   color: #96a483;
   display: flex;
   align-items: center;
@@ -2125,7 +2125,7 @@ textarea {
   border-radius: 5px;
   padding: 12px;
   margin: 21px 0 11px;
-  font-size: 9px;
+  font-size: 12px;
   color: #94a081;
 }
 .brief-contact strong {
@@ -2139,7 +2139,7 @@ textarea {
   padding: 6px 10px;
   margin-top: 7px;
   border-radius: 4px;
-  font-size: 10px;
+  font-size: 13px;
   color: #7f9570;
 }
 .pending-file > span {
@@ -2147,7 +2147,7 @@ textarea {
   overflow-wrap: anywhere;
 }
 .brief-toolbar select {
-  font-size: 10px;
+  font-size: 13px;
   min-height: 37px;
   padding: 8px 28px 8px 10px;
   background: #fff;
@@ -2191,7 +2191,7 @@ textarea {
   padding: 19px 24px;
 }
 .brief-table-head {
-  font-size: 9px;
+  font-size: 12px;
   color: #9caa8b;
   background: #f2f6eb;
   padding-top: 13px;
@@ -2199,18 +2199,18 @@ textarea {
 }
 .brief-table-row {
   border-top: 1px solid #edf0e7;
-  font-size: 11px;
+  font-size: 14px;
 }
 .brief-table-row:hover {
   background: #fbfdf6;
 }
 .brief-table-row > span:first-child strong {
-  font-size: 12px;
+  font-size: 15px;
   display: block;
   line-height: 1.6;
 }
 .brief-table-row small {
-  font-size: 8px;
+  font-size: 12px;
   color: #a1ae93;
   display: block;
   margin-top: 5px;
@@ -2248,7 +2248,7 @@ textarea {
   margin-bottom: 17px;
 }
 .kanban-header > span:last-child {
-  font-size: 10px;
+  font-size: 13px;
   color: #a2af91;
 }
 .kanban-card {
@@ -2265,21 +2265,21 @@ textarea {
   cursor: grab;
 }
 .kanban-card small {
-  font-size: 8px;
+  font-size: 12px;
   color: #a2b08f;
 }
 .kanban-card h3 {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
   margin: 11px 0;
 }
 .kanban-card p {
-  font-size: 10px;
+  font-size: 13px;
   color: #91a17b;
   margin-bottom: 16px;
 }
 .kanban-card > strong {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 650;
 }
 .kanban-card > svg {
@@ -2289,7 +2289,7 @@ textarea {
   color: #9fb18a;
 }
 .brief-description {
-  font-size: 13px;
+  font-size: 16px;
   color: #718562;
   line-height: 1.9;
 }
@@ -2307,7 +2307,7 @@ textarea {
   gap: 8px;
 }
 .brief-facts span {
-  font-size: 9px;
+  font-size: 12px;
   color: #98a78a;
 }
 .brief-facts strong {
@@ -2328,12 +2328,12 @@ textarea {
 }
 .attachment strong {
   display: block;
-  font-size: 11px;
+  font-size: 14px;
   overflow-wrap: anywhere;
 }
 .attachment span {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
   color: #a5b197;
   margin-top: 4px;
 }
@@ -2391,17 +2391,17 @@ textarea {
   z-index: 1;
 }
 .timeline-event strong {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 650;
 }
 .timeline-event p {
-  font-size: 10px;
+  font-size: 13px;
   color: #92a27e;
   margin: 5px 0;
   white-space: pre-line;
 }
 .timeline-event small {
-  font-size: 8px;
+  font-size: 12px;
   color: #abb79c;
 }
 .brief-side {
@@ -2415,13 +2415,13 @@ textarea {
   position: static;
 }
 .brief-side .text-link {
-  font-size: 10px;
+  font-size: 13px;
   display: flex;
   margin-top: 14px;
 }
 .contact-email {
   overflow-wrap: anywhere;
-  font-size: 9px !important;
+  font-size: 12px !important;
 }
 .brief-actions {
   border: 1px solid #dfe7d4;
@@ -2435,7 +2435,7 @@ textarea {
 }
 .brief-actions > .btn {
   margin-bottom: 10px;
-  font-size: 10px;
+  font-size: 13px;
   justify-content: space-between;
 }
 .brief-actions > .btn:last-child {
@@ -2456,7 +2456,7 @@ textarea {
   padding: 15px 16px 15px 20px;
   border-radius: 9px;
   box-shadow: 0 9px 35px #20331924;
-  font-size: 11px;
+  font-size: 14px;
 }
 .toast > span {
   line-height: 1.7;
@@ -2495,7 +2495,7 @@ textarea {
   margin-bottom: 15px;
 }
 .modal > .muted {
-  font-size: 12px;
+  font-size: 15px;
 }
 .modal .field {
   margin-top: 20px;
@@ -2506,25 +2506,25 @@ textarea {
   gap: 25px;
   padding: 17px 0;
   border-bottom: 1px solid #e6eddd;
-  font-size: 11px;
+  font-size: 14px;
 }
 .admin-row > div:first-child {
   flex: 1;
   min-width: 0;
 }
 .admin-row strong {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 650;
   overflow-wrap: anywhere;
 }
 .admin-row small {
   display: block;
   color: #a0ae8f;
-  font-size: 9px;
+  font-size: 12px;
   margin-top: 5px;
 }
 .admin-row > span {
-  font-size: 9px;
+  font-size: 12px;
   color: #82986b;
 }
 .admin-row > .btn {
@@ -2556,7 +2556,7 @@ textarea {
     font-size: 23px;
   }
   .art-title {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 @media (max-width: 1100px) {
@@ -2641,7 +2641,7 @@ textarea {
     padding: 0 19px 20px;
   }
   .creator-card .tag {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 @media (max-width: 850px) {
@@ -2655,7 +2655,7 @@ textarea {
     gap: 17px;
   }
   .main-nav a {
-    font-size: 10px;
+    font-size: 13px;
   }
   .main-nav a:nth-child(n + 3) {
     display: none;
@@ -2697,13 +2697,13 @@ textarea {
     width: 17px;
   }
   .hero-description {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-copy > .text-link {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-copy > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .explore-page {
     padding-top: 38px;
@@ -2720,7 +2720,7 @@ textarea {
     padding: 30px;
   }
   .join-strip .btn {
-    font-size: 10px;
+    font-size: 13px;
     padding: 12px;
   }
   .editor-layout {
@@ -2738,7 +2738,7 @@ textarea {
     padding: 23px;
   }
   .editor-preview > .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
   }
   .profile-mini {
     padding: 23px 17px;
@@ -2805,11 +2805,11 @@ textarea {
     font-size: 34px;
   }
   .profile-hero .tag {
-    font-size: 8px;
+    font-size: 12px;
   }
   .profile-hero-action > .btn {
     padding: 12px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .profile-hero {
     gap: 20px;
@@ -2831,16 +2831,16 @@ textarea {
     font-size: 30px;
   }
   .auth-form-panel > .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
   }
   .auth-form-panel > .muted {
-    font-size: 10px;
+    font-size: 13px;
   }
   .auth-story > .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
   }
   .auth-story > p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .auth-illustration {
     right: -35px;
@@ -2856,7 +2856,7 @@ textarea {
     display: none;
   }
   .brief-table-row > span:nth-child(3) {
-    font-size: 9px;
+    font-size: 12px;
   }
   .brief-author-card {
     padding: 22px;
@@ -2869,13 +2869,13 @@ textarea {
     height: 58px;
   }
   .brief-author-card .tag {
-    font-size: 7px;
+    font-size: 12px;
   }
   .next-steps {
-    font-size: 10px;
+    font-size: 13px;
   }
   .brief-contact {
-    font-size: 8px;
+    font-size: 12px;
   }
   .page-title h1 {
     font-size: 37px;
@@ -2884,7 +2884,7 @@ textarea {
     gap: 22px;
   }
   .studio-nav a {
-    font-size: 10px;
+    font-size: 13px;
   }
   .studio-stats > div,
   .studio-stats > a {
@@ -2895,13 +2895,13 @@ textarea {
     gap: 8px;
   }
   .studio-stats small {
-    font-size: 8px;
+    font-size: 12px;
   }
   .studio-stats > * > span {
-    font-size: 9px;
+    font-size: 12px;
   }
   .page-actions > .btn {
-    font-size: 10px;
+    font-size: 13px;
     padding: 12px 14px;
   }
 }
@@ -2918,7 +2918,7 @@ textarea {
     gap: 9px;
   }
   .header-publish {
-    font-size: 9px;
+    font-size: 12px;
     min-height: 34px;
     padding: 9px 11px;
     gap: 5px;
@@ -2927,7 +2927,7 @@ textarea {
     width: 14px;
   }
   .login-link {
-    font-size: 11px;
+    font-size: 14px;
   }
   .mobile-menu {
     display: flex;
@@ -2956,7 +2956,7 @@ textarea {
   .main-nav a:nth-child(n + 3) {
     display: flex;
     padding: 12px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 5px;
   }
   .main-nav a.active {
@@ -2994,14 +2994,14 @@ textarea {
     letter-spacing: -1.2px;
   }
   .hero-description {
-    font-size: 12px;
+    font-size: 15px;
   }
   .hero-copy > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 1.5px;
   }
   .hero-copy > .text-link {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-copy {
     max-width: 420px;
@@ -3014,10 +3014,10 @@ textarea {
     font-size: 21px;
   }
   .section-heading > p {
-    font-size: 8px;
+    font-size: 12px;
   }
   .section-heading h2 > span {
-    font-size: 10px;
+    font-size: 13px;
   }
   .discovery-toolbar {
     gap: 17px;
@@ -3031,7 +3031,7 @@ textarea {
     max-width: 100%;
   }
   .filter-tabs button {
-    font-size: 9px;
+    font-size: 12px;
     padding: 8px 10px;
   }
   .toolbar-right {
@@ -3045,7 +3045,7 @@ textarea {
   }
   .search-box input {
     width: 100%;
-    font-size: 11px;
+    font-size: 14px;
   }
   .art-grid,
   .creator-grid {
@@ -3070,17 +3070,17 @@ textarea {
     padding-top: 11px;
   }
   .art-title {
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 6px;
   }
   .art-author {
-    font-size: 8px;
+    font-size: 12px;
     gap: 4px;
   }
   .art-author .avatar-small {
     width: 19px;
     height: 19px;
-    font-size: 7px;
+    font-size: 12px;
   }
   .art-open {
     display: none;
@@ -3096,10 +3096,10 @@ textarea {
     font-size: 26px;
   }
   .join-strip .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
   }
   .join-strip .btn {
-    font-size: 10px;
+    font-size: 13px;
   }
   .site-footer {
     padding: 27px 18px;
@@ -3113,16 +3113,16 @@ textarea {
     font-size: 24px;
   }
   .site-footer p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .footer-links a {
-    font-size: 9px;
+    font-size: 12px;
   }
   .footer-note {
     width: 100%;
     margin: 0;
     text-align: left;
-    font-size: 8px;
+    font-size: 12px;
     border-top: 1px solid #e3eadb;
     padding-top: 17px;
   }
@@ -3143,21 +3143,21 @@ textarea {
     margin-bottom: 12px;
   }
   .page-title .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 13px;
   }
   .page-title .muted {
-    font-size: 11px;
+    font-size: 14px;
   }
   .page-actions {
     width: 100%;
   }
   .page-actions .btn {
-    font-size: 10px;
+    font-size: 13px;
   }
   .back-link {
     margin-bottom: 24px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .creator-grid {
     grid-template-columns: 1fr;
@@ -3172,14 +3172,14 @@ textarea {
     font-size: 23px;
   }
   .creator-card p {
-    font-size: 12px;
+    font-size: 15px;
     min-height: 0;
   }
   .creator-card .tag {
-    font-size: 9px;
+    font-size: 12px;
   }
   .creator-card-foot {
-    font-size: 10px;
+    font-size: 13px;
   }
   .creator-grid {
     gap: 23px;
@@ -3209,11 +3209,11 @@ textarea {
     margin-bottom: 12px;
   }
   .profile-hero .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
     margin-bottom: 8px;
   }
   .profile-hero .tag {
-    font-size: 7px;
+    font-size: 12px;
     padding: 5px 7px;
   }
   .profile-hero-action {
@@ -3228,7 +3228,7 @@ textarea {
     margin-bottom: 28px;
   }
   .profile-section-nav a {
-    font-size: 10px;
+    font-size: 13px;
   }
   .profile-section {
     margin-bottom: 38px;
@@ -3242,7 +3242,7 @@ textarea {
     font-size: 22px;
   }
   .profile-section .section-heading > p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .services-grid {
     grid-template-columns: 1fr;
@@ -3255,7 +3255,7 @@ textarea {
     font-size: 17px;
   }
   .service-card > p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .service-bottom strong {
     font-size: 16px;
@@ -3264,14 +3264,14 @@ textarea {
     display: block;
   }
   .profile-about > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 18px;
   }
   .profile-about h2 {
     font-size: 29px;
   }
   .profile-about > p:last-child {
-    font-size: 12px;
+    font-size: 15px;
   }
   .profile-bottom-cta {
     flex-direction: column;
@@ -3305,7 +3305,7 @@ textarea {
     font-size: 22px;
   }
   .artwork-story p:last-child {
-    font-size: 12px;
+    font-size: 15px;
   }
   .artwork-story {
     padding-top: 30px;
@@ -3315,10 +3315,10 @@ textarea {
     margin-top: 29px;
   }
   .detail-list > div {
-    font-size: 11px;
+    font-size: 14px;
   }
   .viewer-hint {
-    font-size: 7px;
+    font-size: 12px;
     left: 10px;
     bottom: 12px;
     max-width: 68%;
@@ -3337,10 +3337,10 @@ textarea {
     height: 29px;
   }
   .viewer-tabs button {
-    font-size: 9px;
+    font-size: 12px;
   }
   .artwork-info .tag {
-    font-size: 8px;
+    font-size: 12px;
   }
   .auth-page {
     display: block;
@@ -3358,22 +3358,22 @@ textarea {
     font-size: 34px;
   }
   .auth-form-panel > .muted {
-    font-size: 12px;
+    font-size: 15px;
   }
   .auth-form-panel > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .auth-form-panel .field-label {
-    font-size: 12px;
+    font-size: 15px;
   }
   .auth-switch {
-    font-size: 12px;
+    font-size: 15px;
   }
   .role-options strong {
-    font-size: 12px;
+    font-size: 15px;
   }
   .role-options span {
-    font-size: 9px;
+    font-size: 12px;
   }
   .role-options label {
     padding: 15px;
@@ -3399,7 +3399,7 @@ textarea {
     order: -1;
   }
   .editor-preview > .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .profile-mini {
     min-height: 0;
@@ -3414,7 +3414,7 @@ textarea {
     font-size: 24px;
   }
   .profile-mini > p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .profile-mini section {
     display: none;
@@ -3438,10 +3438,10 @@ textarea {
     margin-bottom: 19px;
   }
   .field-label {
-    font-size: 11px;
+    font-size: 14px;
   }
   .field small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .field-row {
     gap: 12px;
@@ -3451,7 +3451,7 @@ textarea {
     gap: 8px;
   }
   .form-actions > .btn {
-    font-size: 10px;
+    font-size: 13px;
     padding: 12px 14px;
   }
   .studio-nav {
@@ -3459,7 +3459,7 @@ textarea {
     margin-bottom: 25px;
   }
   .studio-nav a {
-    font-size: 9px;
+    font-size: 12px;
     gap: 5px;
     padding-bottom: 13px;
   }
@@ -3474,7 +3474,7 @@ textarea {
     padding: 15px 12px;
   }
   .studio-stats > * > span {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 9px;
   }
   .studio-stats strong {
@@ -3484,7 +3484,7 @@ textarea {
   }
   .studio-stats small {
     display: block;
-    font-size: 7px;
+    font-size: 12px;
     line-height: 1.6;
   }
   .studio-profile-strip {
@@ -3496,24 +3496,24 @@ textarea {
     gap: 9px;
   }
   .studio-profile-strip strong {
-    font-size: 11px;
+    font-size: 14px;
   }
   .studio-profile-strip > .text-link {
     margin-left: 51px;
-    font-size: 9px;
+    font-size: 12px;
   }
   .art-caption .status {
-    font-size: 7px;
+    font-size: 12px;
     padding: 4px 6px;
   }
   .status {
-    font-size: 8px;
+    font-size: 12px;
   }
   .theme-options {
     gap: 9px;
   }
   .theme-swatch {
-    font-size: 9px;
+    font-size: 12px;
   }
   .theme-swatch > span {
     height: 50px;
@@ -3522,10 +3522,10 @@ textarea {
     gap: 7px;
   }
   .section-order strong {
-    font-size: 10px;
+    font-size: 13px;
   }
   .check-inline {
-    font-size: 8px;
+    font-size: 12px;
     gap: 3px;
     margin-right: 1px;
   }
@@ -3547,7 +3547,7 @@ textarea {
     margin-bottom: 14px;
   }
   .brief-author-card > .eyebrow {
-    font-size: 7px;
+    font-size: 12px;
   }
   .brief-author-card h2 {
     font-size: 24px;
@@ -3559,7 +3559,7 @@ textarea {
     display: none;
   }
   .brief-author-card .tag {
-    font-size: 8px;
+    font-size: 12px;
   }
   .selected-service {
     padding-top: 16px;
@@ -3569,7 +3569,7 @@ textarea {
     margin-bottom: 0;
   }
   .brief-contact {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .brief-toolbar {
@@ -3585,10 +3585,10 @@ textarea {
     max-width: none;
     width: auto;
     flex: 1;
-    font-size: 10px;
+    font-size: 13px;
   }
   .brief-toolbar .filter-tabs button {
-    font-size: 10px;
+    font-size: 13px;
     padding: 9px 14px;
   }
   .brief-table-head {
@@ -3603,12 +3603,12 @@ textarea {
     grid-column: 1/-1;
   }
   .brief-table-row > span:nth-child(2) {
-    font-size: 10px;
+    font-size: 13px;
     color: #8c9f78;
   }
   .brief-table-row > span:nth-child(3) {
     grid-column: 1;
-    font-size: 11px;
+    font-size: 14px;
   }
   .brief-table-row > .status {
     grid-column: 2;
@@ -3617,20 +3617,20 @@ textarea {
     justify-self: end;
   }
   .brief-table-row small {
-    font-size: 8px;
+    font-size: 12px;
   }
   .brief-table-row > span:first-child strong {
-    font-size: 13px;
+    font-size: 16px;
   }
   .brief-facts {
     gap: 15px;
   }
   .brief-facts strong {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.5;
   }
   .brief-description {
-    font-size: 12px;
+    font-size: 15px;
   }
   .brief-side {
     width: 100%;
@@ -3640,23 +3640,23 @@ textarea {
     display: none;
   }
   .brief-side .brief-author-card > .text-link {
-    font-size: 10px;
+    font-size: 13px;
   }
   .brief-actions .btn {
-    font-size: 11px;
+    font-size: 14px;
     min-height: 43px;
   }
   .attachment {
     gap: 10px;
   }
   .attachment strong {
-    font-size: 10px;
+    font-size: 13px;
   }
   .kanban-column {
     width: 230px;
   }
   .board-hint {
-    font-size: 10px;
+    font-size: 13px;
   }
   .admin-row {
     gap: 13px;
@@ -3666,10 +3666,10 @@ textarea {
     min-width: 150px;
   }
   .admin-row > span {
-    font-size: 8px;
+    font-size: 12px;
   }
   .admin-row > .btn {
-    font-size: 9px;
+    font-size: 12px;
   }
   .modal {
     padding: 25px 22px;
@@ -3678,7 +3678,7 @@ textarea {
     font-size: 22px;
   }
   .toast {
-    font-size: 10px;
+    font-size: 13px;
     bottom: 18px;
     padding: 13px 15px;
   }
@@ -3686,7 +3686,7 @@ textarea {
     padding: 44px 18px;
   }
   .empty-state p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .empty-state h3 {
     font-size: 18px;
@@ -3719,7 +3719,7 @@ textarea {
   .main-nav .mobile-only {
     display: flex;
     padding: 12px;
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
   }
   .nav-exit {
@@ -3758,7 +3758,7 @@ textarea {
   .main-nav .mobile-only {
     display: flex;
     padding: 12px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 5px;
     text-align: left;
   }
