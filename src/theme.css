@@ -1,0 +1,432 @@
+/* The header stays visible while the page scrolls. */
+html {
+  scroll-padding-top: 110px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding-top: 86px;
+  background: var(--paper);
+}
+
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 60;
+  background: var(--paper);
+  box-shadow: 0 8px 24px #1e35200b;
+}
+
+.profile-section,
+.service-editor {
+  scroll-margin-top: 116px;
+}
+
+@media (min-width: 651px) {
+  .artwork-info,
+  .editor-aside,
+  .editor-preview,
+  .brief-author-card,
+  .brief-side {
+    top: 112px;
+  }
+}
+
+.theme-toggle {
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--surface);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.theme-toggle:hover {
+  background: #eaf0e0;
+}
+
+@media (max-width: 850px) {
+  .app-shell {
+    padding-top: 73px;
+  }
+
+  html {
+    scroll-padding-top: 95px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-actions {
+    gap: 8px;
+  }
+
+  .theme-toggle {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (max-width: 460px) {
+  .header-inner {
+    gap: 8px;
+  }
+
+  .header-inner .brand {
+    font-size: 26px;
+  }
+
+  .login-link {
+    display: none;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ink: #edf2e9;
+  --muted: #a9b7a9;
+  --line: #354439;
+  --green: #bbdc94;
+  --surface: #202b23;
+  --paper: #121a15;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+:root[data-theme="dark"] body {
+  color: var(--ink);
+  background: var(--paper);
+}
+
+:root[data-theme="dark"] ::selection {
+  background: #52704b;
+  color: #fff;
+}
+
+:root[data-theme="dark"] a:focus-visible,
+:root[data-theme="dark"] button:focus-visible {
+  outline-color: #b5d890;
+}
+
+:root[data-theme="dark"] .site-header {
+  background: #18231c;
+  box-shadow: 0 10px 28px #0005;
+}
+
+:root[data-theme="dark"] .brand-mark i {
+  background: #b9dca0;
+}
+
+:root[data-theme="dark"] .brand-dot,
+:root[data-theme="dark"] .hero-copy h1 span {
+  color: #b9d99e;
+}
+
+:root[data-theme="dark"] .main-nav a,
+:root[data-theme="dark"] .logout-button {
+  color: #b0beae;
+}
+
+:root[data-theme="dark"] .main-nav a.active,
+:root[data-theme="dark"] .main-nav a:hover {
+  color: #f0f5eb;
+}
+
+:root[data-theme="dark"] .main-nav a.active:after {
+  background: #b6d99a;
+}
+
+:root[data-theme="dark"] .theme-toggle {
+  background: #27362b;
+  color: #d9edbe;
+}
+
+:root[data-theme="dark"] .theme-toggle:hover {
+  background: #344b39;
+}
+
+:root[data-theme="dark"] .btn-dark {
+  background: #c2e39e;
+  color: #183222;
+}
+
+:root[data-theme="dark"] .btn-dark:hover {
+  background: #d3efb2;
+}
+
+:root[data-theme="dark"] .btn-outline {
+  border-color: #62775f;
+  color: #e4eddf;
+}
+
+:root[data-theme="dark"] .btn-outline:hover,
+:root[data-theme="dark"] .btn-ghost:hover {
+  background: #2a3a2d;
+}
+
+:root[data-theme="dark"] .btn-ghost,
+:root[data-theme="dark"] .lead,
+:root[data-theme="dark"] .hero-description,
+:root[data-theme="dark"] .back-link,
+:root[data-theme="dark"] .eyebrow,
+:root[data-theme="dark"] .section-heading > p,
+:root[data-theme="dark"] .section-heading h2 > span,
+:root[data-theme="dark"] .art-author,
+:root[data-theme="dark"] .art-style,
+:root[data-theme="dark"] .site-footer p,
+:root[data-theme="dark"] .footer-links a,
+:root[data-theme="dark"] .footer-note,
+:root[data-theme="dark"] .auth-switch,
+:root[data-theme="dark"] .field small,
+:root[data-theme="dark"] .creator-card p,
+:root[data-theme="dark"] .creator-card-foot,
+:root[data-theme="dark"] .brief-description,
+:root[data-theme="dark"] .artwork-story > p:last-child,
+:root[data-theme="dark"] .detail-list > div > span,
+:root[data-theme="dark"] .brief-facts span,
+:root[data-theme="dark"] .timeline-event p,
+:root[data-theme="dark"] .timeline-event small,
+:root[data-theme="dark"] .kanban-card p,
+:root[data-theme="dark"] .kanban-card small,
+:root[data-theme="dark"] .admin-row small {
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .text-link,
+:root[data-theme="dark"] .auth-switch a,
+:root[data-theme="dark"] .art-title:hover,
+:root[data-theme="dark"] .field-label,
+:root[data-theme="dark"] .studio-nav a.active,
+:root[data-theme="dark"] .search-submit {
+  color: #bbdc94;
+}
+
+:root[data-theme="dark"] .hero-note,
+:root[data-theme="dark"] .filter-panel,
+:root[data-theme="dark"] .empty-state,
+:root[data-theme="dark"] .editor-aside,
+:root[data-theme="dark"] .brief-author-card,
+:root[data-theme="dark"] .kanban-column,
+:root[data-theme="dark"] .studio-stats > div,
+:root[data-theme="dark"] .studio-stats > a,
+:root[data-theme="dark"] .brief-table-head {
+  background: #26382b;
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .hero-orbit svg {
+  background: #26382b;
+  color: #b6d99a;
+}
+
+:root[data-theme="dark"] .hero-orbit span {
+  border-color: #66805b;
+}
+
+:root[data-theme="dark"] .hero-note-bottom span,
+:root[data-theme="dark"] .filter-tabs button,
+:root[data-theme="dark"] .studio-nav a,
+:root[data-theme="dark"] .viewer-tabs button,
+:root[data-theme="dark"] .view-toggle button,
+:root[data-theme="dark"] .empty-state p,
+:root[data-theme="dark"] .creator-banner,
+:root[data-theme="dark"] .next-steps,
+:root[data-theme="dark"] .editor-aside p,
+:root[data-theme="dark"] .editor-aside li,
+:root[data-theme="dark"] .brief-author-card .tag,
+:root[data-theme="dark"] .brief-table-head,
+:root[data-theme="dark"] .brief-table-row small,
+:root[data-theme="dark"] .kanban-header > span:last-child {
+  color: #b5c4b0;
+}
+
+:root[data-theme="dark"] .filter-tabs button.active,
+:root[data-theme="dark"] .viewer-tabs button.active,
+:root[data-theme="dark"] .view-toggle button.active {
+  background: #354d38;
+  color: #e6f3d8;
+}
+
+:root[data-theme="dark"] .search-box,
+:root[data-theme="dark"] .creator-card,
+:root[data-theme="dark"] .form-section,
+:root[data-theme="dark"] .studio-profile-strip,
+:root[data-theme="dark"] .brief-table,
+:root[data-theme="dark"] .kanban-card,
+:root[data-theme="dark"] .brief-actions,
+:root[data-theme="dark"] .modal,
+:root[data-theme="dark"] .view-toggle,
+:root[data-theme="dark"] .role-options label,
+:root[data-theme="dark"] .section-order > div,
+:root[data-theme="dark"] .attachment,
+:root[data-theme="dark"] .admin-row {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .search-box input,
+:root[data-theme="dark"] input:not([type="radio"]):not([type="checkbox"]):not([type="file"]),
+:root[data-theme="dark"] textarea,
+:root[data-theme="dark"] select {
+  background: #1e2a22;
+  border-color: #405443;
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .search-box input {
+  border: 0;
+  background: transparent;
+}
+
+:root[data-theme="dark"] input::placeholder,
+:root[data-theme="dark"] textarea::placeholder,
+:root[data-theme="dark"] .search-box input::placeholder {
+  color: #90a18f;
+}
+
+:root[data-theme="dark"] input:focus,
+:root[data-theme="dark"] textarea:focus,
+:root[data-theme="dark"] select:focus {
+  border-color: #9cc782;
+  box-shadow: 0 0 0 3px #b5d99430;
+}
+
+:root[data-theme="dark"] .art-visual,
+:root[data-theme="dark"] .artwork-viewer,
+:root[data-theme="dark"] .media-placeholder,
+:root[data-theme="dark"] .skeleton-card > div,
+:root[data-theme="dark"] .skeleton-card > span {
+  background: #2b392e;
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .media-placeholder,
+:root[data-theme="dark"] .viewer-hint,
+:root[data-theme="dark"] .section-order strong,
+:root[data-theme="dark"] .studio-stats > * > span,
+:root[data-theme="dark"] .studio-stats small,
+:root[data-theme="dark"] .brief-contact,
+:root[data-theme="dark"] .selected-service p {
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .creator-banner,
+:root[data-theme="dark"] .creator-banner-1,
+:root[data-theme="dark"] .creator-banner-2 {
+  background: #344c3a;
+}
+
+:root[data-theme="dark"] .creator-card-body > .avatar {
+  border-color: var(--surface);
+}
+
+:root[data-theme="dark"] .creator-card .tag,
+:root[data-theme="dark"] .artwork-info .tag,
+:root[data-theme="dark"] .brief-author-card .tag,
+:root[data-theme="dark"] .role-options label.selected,
+:root[data-theme="dark"] .demo-login button,
+:root[data-theme="dark"] .brief-contact,
+:root[data-theme="dark"] .pending-file,
+:root[data-theme="dark"] .view-toggle button.active {
+  background: #304434;
+  border-color: #4a6249;
+  color: #dcebd0;
+}
+
+:root[data-theme="dark"] .file-picker,
+:root[data-theme="dark"] .file-picker:hover,
+:root[data-theme="dark"] .editor-aside-icon,
+:root[data-theme="dark"] .empty-icon {
+  background: #304434;
+  border-color: #66835d;
+  color: #c4dfa9;
+}
+
+:root[data-theme="dark"] .file-picker strong,
+:root[data-theme="dark"] .viewer-tabs button.active,
+:root[data-theme="dark"] .studio-nav a.active {
+  color: #d9edc1;
+}
+
+:root[data-theme="dark"] .viewer-tools button,
+:root[data-theme="dark"] .model-fallback > span {
+  background: #243229e8;
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .detail-list > div,
+:root[data-theme="dark"] .brief-facts,
+:root[data-theme="dark"] .brief-table-row,
+:root[data-theme="dark"] .section-order > div,
+:root[data-theme="dark"] .creator-card-foot,
+:root[data-theme="dark"] .brief-author-card hr,
+:root[data-theme="dark"] .selected-service,
+:root[data-theme="dark"] .timeline-event:before,
+:root[data-theme="dark"] .admin-row {
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .brief-table-row:hover {
+  background: #2a3b2e;
+}
+
+:root[data-theme="dark"] .timeline-dot {
+  background: #b9d99d;
+  border-color: #2a3d30;
+}
+
+:root[data-theme="dark"] .kanban-card {
+  box-shadow: 0 2px 0 #17231a;
+}
+
+:root[data-theme="dark"] .notice-error {
+  background: #432d28;
+  color: #f2b8a8;
+  border-color: #72463d;
+}
+
+:root[data-theme="dark"] .notice-success {
+  background: #2b402d;
+  color: #c7e4ab;
+  border-color: #466947;
+}
+
+:root[data-theme="dark"] .toast {
+  background: #314837;
+  color: #eff8e9;
+}
+
+:root[data-theme="dark"] .toast-error {
+  background: #784137;
+}
+
+/* A creator's own profile palette is part of their design, so it stays independent. */
+:root[data-theme="dark"] .profile-page.profile-theme-paper,
+:root[data-theme="dark"] .profile-page.profile-theme-sage,
+:root[data-theme="dark"] .profile-page.profile-theme-night {
+  color: var(--profile-text);
+}
+
+:root[data-theme="dark"] .profile-page .eyebrow,
+:root[data-theme="dark"] .profile-page .art-author,
+:root[data-theme="dark"] .profile-page .section-heading > p {
+  color: var(--profile-muted);
+}
+
+@media (max-width: 850px) {
+  :root[data-theme="dark"] .main-nav {
+    background: #1c2a21;
+    border-color: var(--line);
+    box-shadow: 0 14px 24px #0005;
+  }
+
+  :root[data-theme="dark"] .main-nav a.active {
+    background: #354d38;
+    color: #e6f3d8;
+  }
+}

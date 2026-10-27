@@ -7,6 +7,10 @@ import { AuthProvider } from "./auth";
 import { ToastProvider } from "./components/ui";
 import App from "./App";
 import "./styles.css";
+import "./theme.css";
+import { getInitialTheme, setTheme } from "./theme";
+
+setTheme(getInitialTheme());
 
 const queryClient = new QueryClient({
   defaultOptions: {

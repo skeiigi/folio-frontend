@@ -6,9 +6,10 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import { Plus, Menu, X, ArrowUpRight, LogOut, Settings } from "lucide-react";
+import { Plus, Menu, X, ArrowUpRight, LogOut, Moon, Sun } from "lucide-react";
 import { useAuth } from "../auth";
 import { Avatar } from "./ui";
+import { getInitialTheme, setTheme } from "../theme";
 
 export function Brand() {
   return (
@@ -25,6 +26,7 @@ export function Brand() {
 export default function Layout() {
   const { user, logout } = useAuth();
   const [open, setOpen] = useState(false);
+  const [theme, updateTheme] = useState(getInitialTheme);
   const location = useLocation();
   const navigate = useNavigate();
   useEffect(() => {
@@ -71,6 +73,19 @@ export default function Layout() {
             )}
           </nav>
           <div className="header-actions">
+            <button
+              type="button"
+              className="icon-button theme-toggle"
+              aria-label={theme === "dark" ? "Включить светлую тему" : "Включить тёмную тему"}
+              title={theme === "dark" ? "Светлая тема" : "Тёмная тема"}
+              onClick={() => {
+                const nextTheme = theme === "dark" ? "light" : "dark";
+                setTheme(nextTheme);
+                updateTheme(nextTheme);
+              }}
+            >
+              {theme === "dark" ? <Sun size={19} /> : <Moon size={19} />}
+            </button>
             {user ? (
               <>
                 <Link
