@@ -8,9 +8,9 @@ import { ToastProvider } from "./components/ui";
 import App from "./App";
 import "./styles.css";
 import "./theme.css";
-import { getInitialTheme, setTheme } from "./theme";
+import { applyTheme, getThemePreference, resolveTheme } from "./theme";
 
-setTheme(getInitialTheme());
+applyTheme(resolveTheme(getThemePreference()));
 
 const queryClient = new QueryClient({
   defaultOptions: {

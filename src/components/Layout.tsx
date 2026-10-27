@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   Link,
   NavLink,
@@ -6,10 +6,17 @@ import {
   useLocation,
   useNavigate,
 } from "react-router-dom";
-import { Plus, Menu, X, ArrowUpRight, LogOut, Moon, Sun } from "lucide-react";
+import { Plus, Menu, X, ArrowUpRight, LogOut, Monitor, Moon, Sun } from "lucide-react";
 import { useAuth } from "../auth";
 import { Avatar } from "./ui";
-import { getInitialTheme, setTheme } from "../theme";
+import {
+  applyTheme,
+  getThemePreference,
+  resolveTheme,
+  setThemePreference,
+  watchSystemTheme,
+  type ThemePreference,
+} from "../theme";
 
 export function Brand() {
   return (
@@ -26,13 +33,45 @@ export function Brand() {
 export default function Layout() {
   const { user, logout } = useAuth();
   const [open, setOpen] = useState(false);
-  const [theme, updateTheme] = useState(getInitialTheme);
+  const [preference, updatePreference] = useState(getThemePreference);
+  const [theme, updateTheme] = useState(() => resolveTheme(getThemePreference()));
+  const [themeMenuOpen, setThemeMenuOpen] = useState(false);
+  const themeMenuRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const navigate = useNavigate();
   useEffect(() => {
     setOpen(false);
     window.scrollTo(0, 0);
   }, [location.pathname]);
+  useEffect(() => {
+    if (preference !== "system") return;
+    return watchSystemTheme((nextTheme) => {
+      applyTheme(nextTheme);
+      updateTheme(nextTheme);
+    });
+  }, [preference]);
+  useEffect(() => {
+    if (!themeMenuOpen) return;
+    const closeOnOutsideClick = (event: PointerEvent) => {
+      if (!themeMenuRef.current?.contains(event.target as Node)) {
+        setThemeMenuOpen(false);
+      }
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setThemeMenuOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [themeMenuOpen]);
+  const chooseTheme = (nextPreference: ThemePreference) => {
+    updateTheme(setThemePreference(nextPreference));
+    updatePreference(nextPreference);
+    setThemeMenuOpen(false);
+  };
   return (
     <div className="app-shell">
       <header className="site-header">
@@ -73,19 +112,39 @@ export default function Layout() {
             )}
           </nav>
           <div className="header-actions">
-            <button
-              type="button"
-              className="icon-button theme-toggle"
-              aria-label={theme === "dark" ? "Включить светлую тему" : "Включить тёмную тему"}
-              title={theme === "dark" ? "Светлая тема" : "Тёмная тема"}
-              onClick={() => {
-                const nextTheme = theme === "dark" ? "light" : "dark";
-                setTheme(nextTheme);
-                updateTheme(nextTheme);
-              }}
-            >
-              {theme === "dark" ? <Sun size={19} /> : <Moon size={19} />}
-            </button>
+            <div className="theme-control" ref={themeMenuRef}>
+              <button
+                type="button"
+                className="icon-button theme-toggle"
+                aria-label="Выбрать тему оформления"
+                aria-haspopup="true"
+                aria-expanded={themeMenuOpen}
+                title={`Тема: ${preference === "system" ? "как в системе" : preference === "dark" ? "тёмная" : "светлая"}`}
+                onClick={() => setThemeMenuOpen((value) => !value)}
+              >
+                {preference === "system" ? <Monitor size={19} /> : theme === "dark" ? <Moon size={19} /> : <Sun size={19} />}
+              </button>
+              {themeMenuOpen && (
+                <div className="theme-menu" aria-label="Тема оформления">
+                  {([
+                    ["system", "Как в системе", Monitor],
+                    ["light", "Светлая", Sun],
+                    ["dark", "Тёмная", Moon],
+                  ] as const).map(([value, label, Icon]) => (
+                    <button
+                      key={value}
+                      type="button"
+                      className={preference === value ? "is-selected" : ""}
+                      aria-pressed={preference === value}
+                      onClick={() => chooseTheme(value)}
+                    >
+                      <Icon size={17} />
+                      {label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             {user ? (
               <>
                 <Link
